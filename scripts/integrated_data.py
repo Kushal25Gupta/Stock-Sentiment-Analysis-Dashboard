@@ -84,5 +84,5 @@ print("\nNews Data with Sentiment (First Few Rows):")
 print(news_df.head())
 
 # Save outputs to CSV files 
-stock_data.to_csv("integrated_stock_data.csv", index=False)
-news_df.to_csv("integrated_news_data.csv", index=False)
+stock_data.to_csv("data/integrated_stock_data.csv", index=False)
+news_df.to_csv("data/integrated_news_data.csv", index=False)
