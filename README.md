@@ -1,4 +1,3 @@
-```markdown
 # Stock Sentiment Analysis App
 
 ## Overview
@@ -128,27 +127,3 @@ For detailed information about planned features and future milestones, refer to 
 
 ## License
 This project is open source under the [MIT License](LICENSE). Feel free to modify and use it for your own applications.
-```
-
----
-
-### Next Steps for You
-
-1. **Save and Commit:**  
-   - Save this content as your `README.md` file.
-   - In your terminal, stage and commit the changes:
-     ```bash
-     git add README.md
-     git commit -m "Update README with advanced features and project details"
-     git push
-     ```
-   - If you're working on a feature branch, open a pull request and merge it into `main` as previously described.
-
-2. **Review the Documentation:**  
-   - Open the file in your repository on GitHub to ensure it displays correctly.
-   - Verify that links, installation instructions, and usage examples are accurate.
-
-3. **Proceed with the Project:**  
-   - Once your documentation is updated and merged, you can start working on the advanced NLP techniques on a new branch (e.g., `feature/advanced-nlp`).
-   - Follow the same Git workflow for new features: create a branch, work on your code, commit often, push, and open a pull request.
-
