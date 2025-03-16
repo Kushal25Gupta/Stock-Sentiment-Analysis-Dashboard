@@ -24,13 +24,13 @@ st.title("Stock Sentiment Analysis Dashboard")
 
 # Load stock data 
 try:
-    stock_data = pd.read_csv("integrated_stock_data.csv")
+    stock_data = pd.read_csv("data/4integrated_stock_data.csv")
 except FileNotFoundError:
     st.error("Stock data file not found. Please run the data ingestion script first")
 
 # # Load news sentiment data
 try:
-    news_data = pd.read_csv("integrated_news_data.csv")
+    news_data = pd.read_csv("data/integrated_news_data.csv")
 except FileNotFoundError:
     st.error("News sentiment data file not found. Please run the data ingestion script first.")
 

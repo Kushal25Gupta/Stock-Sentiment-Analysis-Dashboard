@@ -49,7 +49,7 @@ for article in news_data.get("articles", []):
     output_lines.append(f"Sentiment: {sentiment}\n")
 
 # Write the output to a file
-with open("sentiment_output.txt", "w") as file:
+with open("data/sentiment_output.txt", "w") as file:
     file.write("\n".join(output_lines))
 
 # Optionally, print the output to the console
