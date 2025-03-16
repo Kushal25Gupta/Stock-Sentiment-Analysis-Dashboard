@@ -1,0 +1,57 @@
+
+Number of headlines: 18
+News Headlines and Their Sentiments Analysis:
+
+Headline: Galaxy S26 Ultra camera could bring back one of Samsung's best ideas - SamMobile - Samsung news
+Sentiment: [{'label': 'POSITIVE', 'score': 0.9621479511260986}]
+
+Headline: North Carolina Tar Heels vs. Duke Blue Devils Live Score and Stats - March 14, 2025 Gametracker - CBS Sports
+Sentiment: [{'label': 'POSITIVE', 'score': 0.797300398349762}]
+
+Headline: ‘Snow White’ Actor Responds to Disney Movie’s Premiere Pivot: “They’re Afraid” - Hollywood Reporter
+Sentiment: [{'label': 'POSITIVE', 'score': 0.792259931564331}]
+
+Headline: G-7 overlooks Trump’s brash insults to find agreement on Russia, China - The Washington Post
+Sentiment: [{'label': 'NEGATIVE', 'score': 0.9558995962142944}]
+
+Headline: The Players Championship: Rory McIlroy, Scottie Scheffler and Xander Schauffele stage the kind of showdown golf needs - Yahoo Sports
+Sentiment: [{'label': 'POSITIVE', 'score': 0.992521345615387}]
+
+Headline: US government shutdown averted as Senate passes spending bill - BBC.com
+Sentiment: [{'label': 'NEGATIVE', 'score': 0.9913716316223145}]
+
+Headline: Amid bursts of resistance, Trump administration squeezes colleges over pro-Palestinian protests as activist remains detained - CNN
+Sentiment: [{'label': 'NEGATIVE', 'score': 0.9932439923286438}]
+
+Headline: Seahawks Agree To Terms With Super Bowl MVP Receiver Cooper Kupp - Seahawks.com
+Sentiment: [{'label': 'POSITIVE', 'score': 0.9963022470474243}]
+
+Headline: Wendy Williams denies she's incapacitated in 'The View' interview. What she says about her guardianship, hospitalization, alcohol use. - Yahoo Entertainment
+Sentiment: [{'label': 'NEGATIVE', 'score': 0.9717564582824707}]
+
+Headline: SpaceX launches relief crew for NASA's beleaguered Starliner astronauts on ISS (video) - Space.com
+Sentiment: [{'label': 'POSITIVE', 'score': 0.9482782483100891}]
+
+Headline: Gene Hackman's dog likely died of starvation and dehydration, necropsy report finds - ABC7 Los Angeles
+Sentiment: [{'label': 'NEGATIVE', 'score': 0.9988380074501038}]
+
+Headline: No, Russia Has Not Surrounded Thousands Of Ukrainian Troops In Kursk - Forbes
+Sentiment: [{'label': 'NEGATIVE', 'score': 0.9484536647796631}]
+
+Headline: H5N1 bird flu virus is infectious in raw milk cheese for months, posing risk to public health, study shows - CNN
+Sentiment: [{'label': 'NEGATIVE', 'score': 0.9949630498886108}]
+
+Headline: More than 50 universities face federal investigations as part of Trump’s anti-DEI campaign - The Associated Press
+Sentiment: [{'label': 'NEGATIVE', 'score': 0.9844708442687988}]
+
+Headline: Donald Trump, In DOJ Speech, Calls CNN And MSNBC "Illegal" For Reporting Negatively On Him - Deadline
+Sentiment: [{'label': 'NEGATIVE', 'score': 0.999011754989624}]
+
+Headline: US measles cases reach 5-year high; 15 states report cases, Texas outbreak grows - Ars Technica
+Sentiment: [{'label': 'NEGATIVE', 'score': 0.9805082678794861}]
+
+Headline: Stock Market Today: Dow Rises More Than 600 Points After Shutdown Averted - The Wall Street Journal
+Sentiment: [{'label': 'POSITIVE', 'score': 0.995274007320404}]
+
+Headline: Rubio says South Africa's ambassador to the US 'is no longer welcome' in the country - The Associated Press
+Sentiment: [{'label': 'NEGATIVE', 'score': 0.9997331500053406}]
