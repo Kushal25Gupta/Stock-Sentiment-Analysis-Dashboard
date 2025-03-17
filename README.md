@@ -1,40 +1,25 @@
-# Stock Sentiment Analysis App
+# Stock Sentiment Analysis Dashboard
 
 ## Overview
-The **Stock Sentiment Analysis App** is a Python-based project that integrates real-time stock data with advanced NLP techniques to analyze financial news and predict stock market movements. It demonstrates state-of-the-art data ingestion, sentiment and emotion analysis, deep learning prediction, and follows industry best practices such as containerization and automated deployment.
+The Stock Sentiment Analysis Dashboard is a Python-based MVP that integrates real-time stock data with basic sentiment analysis of financial news headlines. The project fetches historical stock data using yfinance, retrieves news headlines via NewsAPI, performs sentiment analysis using Hugging Face's transformers pipeline, and saves the results into CSV files. A simple Streamlit dashboard is provided to visualize the data.
 
 ## Key Features
 - **Real-Time Data Ingestion**  
   - Fetch live stock data using [yfinance](https://pypi.org/project/yfinance/).  
   - Retrieve financial news headlines via [NewsAPI](https://newsapi.org/).
 
-- **Advanced NLP Techniques**  
-  - **Fine-Tuning:** Train or fine-tune transformer models (e.g., BERT) on a domain-specific dataset of financial news for more accurate sentiment analysis.  
-  - **Aspect-Based Sentiment Analysis:** Drill down into headlines to analyze sentiments on specific financial aspects such as earnings, management, and market conditions.  
-  - **Emotion Detection:** Go beyond positive/negative to detect a range of emotions (e.g., anger, joy, sadness) in news articles.  
-  - **Ensemble Methods (Optional):** Combine predictions from multiple models for increased accuracy and robustness.
-
-- **Deep Learning Prediction**  
-  - Utilize an LSTM model to forecast stock price movements based on historical data.
-
-- **Interactive Dashboard**  
-  - (Planned) Build a real-time web interface using Streamlit or React to visualize data, sentiment analysis, and prediction results.
-
-- **Distributed Streaming & Database Integration**  
-  - (Planned) Incorporate Kafka or AWS Kinesis for real-time data streaming.  
-  - Integrate SQL/NoSQL databases (e.g., PostgreSQL or MongoDB) for efficient data storage and querying.
-
-- **Automation & Deployment**  
-  - (Planned) Automate data pipelines with Airflow or Prefect.  
-  - Containerize with Docker and orchestrate using Kubernetes for scalable deployment.
+- **Real-Time Data Ingestion:** Fetch historical stock data using yfinance and financial news headlines via NewsAPI.
+- **Sentiment Analysis:** Perform sentiment analysis on news headlines using Hugging Face's transformers pipeline.
+- **Data Integration:** Combine and save the results into CSV files.
+- **Interactive Dashboard:** View the processed data in a simple, interactive dashboard built with Streamlit.
 
 ## Installation
 
-1. **Clone the Repository**  
+1. **Clone the Repository:**
    ```bash
    git clone https://github.com/Triumph-KT/Stock-Sentiment-Analysis-App.git
    cd Stock-Sentiment-Analysis-App
-   ```
+
 
 2. **Create and Activate a Virtual Environment (Recommended)**  
    ```bash
@@ -76,48 +61,29 @@ The **Stock Sentiment Analysis App** is a Python-based project that integrates r
 
 ## Usage
 
-1. **Fetch News and Perform Sentiment Analysis**  
-   ```bash
-   python news_sentiment.py
-   ```
-   This script retrieves the latest news headlines from NewsAPI and uses a transformer-based model to analyze sentiment, saving the output to a file (`sentiment_output.txt`) and printing it to the console.
-
-2. **Fetch Stock Data and Integrate with News**  
+1. **Fetch Stock Data and Integrate with News**  
    ```bash
    python integrated_data.py
    ```
    This script fetches historical stock data (default: AAPL) using yfinance, integrates it with news sentiment analysis, and saves the combined results to CSV files.
 
-3. **Advanced Scripts (Planned)**  
-   - **Fine-Tuning:** A script for fine-tuning BERT on financial news data.  
-   - **Aspect-Based Sentiment Analysis:** A script focusing on extracting aspect-level sentiment details.  
-   - **LSTM Prediction:** A script to train and run LSTM-based predictions for stock prices.  
+2. **View the Dashboard**  
+   Launch the Streamlit dashboard to visualize the data.
+   ```bash
+   streamlit run dashboard/dashboard.py
+   ```
 
-   *(These advanced features are under development and will be integrated as they are completed.)*
+## Demo
 
-## Expected Output Examples
+![Dashboard Screenshot](docs/screenshot-dashboard.png)
 
-- **Sentiment Analysis Result:**  
-  ```json
-  [
-    {
-      "headline": "Apple reports record revenue in Q1",
-      "sentiment_label": "POSITIVE",
-      "sentiment_score": 0.98
-    }
-  ]
-  ```
+*(Place the screenshot image in a folder like `docs/` or `images/` in your project.)*
 
-- **Stock Price Prediction (Future LSTM Model):**  
-  ```json
-  {
-    "Date": "2025-03-15",
-    "Predicted_Close_Price": 225.45
-  }
-  ```
+## Future Enhancements
 
-## Project Roadmap
-For detailed information about planned features and future milestones, refer to the [PROJECT_ROADMAP.md](PROJECT_ROADMAP.md) file. It outlines the overall vision, phased approach, and timeline for the project.
+- Integrate advanced NLP techniques such as fine-tuning and aspect-based sentiment analysis.
+- Develop a deep learning model for stock price prediction.
+- Evolve the dashboard into a full-stack web application using React and Django/Node.js.
 
 ## Contributing
 1. Fork the repository.  
