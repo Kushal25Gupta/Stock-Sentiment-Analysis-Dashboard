@@ -34,10 +34,10 @@ sys.path.append(os.path.join(os.getcwd(), "scripts"))
 from news_update import update_news_data
 
 # Set up page configuration
-st.set_page_config(page_title="Stock Sentiment Analysis Dashboard", layout="wide")
+st.set_page_config(page_title="Stock Data & News Sentiment Dashboard", layout="wide")
 
 # Title and description
-st.title("Stock Sentiment Analysis Dashboard")
+st.title("Stock Data & News Sentiment Dashboard")
 st.markdown("This dashboard displays historical stock data and news sentiment analysis results.")
 
 # --- Sidebar: Stock Ticker Selection ---
