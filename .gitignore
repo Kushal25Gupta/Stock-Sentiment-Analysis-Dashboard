@@ -10,3 +10,8 @@ __pycache__/
 
 # Ignore environment files (API keys, secrets)
 .env
+
+# Ignore generated data files
+data/integrated_news_data.csv
+data/integrated_stock_data.csv
+data/news_update_info.txt
